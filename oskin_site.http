@@ -1,0 +1,6 @@
+@oskin_site_HostAddress = http://localhost:5108
+
+GET {{oskin_site_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

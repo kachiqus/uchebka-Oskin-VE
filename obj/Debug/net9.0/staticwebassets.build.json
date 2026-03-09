@@ -1,0 +1,1825 @@
+{
+  "Version": 1,
+  "Hash": "VuAXLUwkjV5ksJyliKRVKLVsMA0R9mgd1nvj3Xfddf4=",
+  "Source": "oskin_site",
+  "BasePath": "_content/oskin_site",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "oskin_site\\wwwroot",
+      "Source": "oskin_site",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\saujpz1q2q-e3ufvzo34k.gz",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "site#[.{fingerprint=e3ufvzo34k}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j9hmz8dgyq",
+      "Integrity": "5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\slf07rgx1y-ehwaf9sea8.gz",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "login#[.{fingerprint=ehwaf9sea8}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\login.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "o2wuqc58e8",
+      "Integrity": "IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\utziqr37ck-z1c1yu9trx.gz",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "index#[.{fingerprint=z1c1yu9trx}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0yzkgwuscj",
+      "Integrity": "CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\vna5pshiy9-hevrzmhw7v.gz",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "app#[.{fingerprint=hevrzmhw7v}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\app.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "tjgbqoavca",
+      "Integrity": "d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\w1nu49ifzt-dj219uafct.gz",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "Комфорт#[.{fingerprint=dj219uafct}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jx7mtg0by4",
+      "Integrity": "WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.ico"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.ico",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "Комфорт#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dj219uafct",
+      "Integrity": "GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Комфорт.ico"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.png",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "Комфорт#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "liirj9c6u9",
+      "Integrity": "fY0Gnn4Bv1kJPuIqLxJ4TZO/vCoFNNze/CaM28gK+Ls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Комфорт.png"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\app.js",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hevrzmhw7v",
+      "Integrity": "R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\index.html",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z1c1yu9trx",
+      "Integrity": "R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\login.html",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "login#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ehwaf9sea8",
+      "Integrity": "Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
+    },
+    {
+      "Identity": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\site.css",
+      "SourceId": "oskin_site",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\",
+      "BasePath": "_content/oskin_site",
+      "RelativePath": "site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3ufvzo34k",
+      "Integrity": "5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Комфорт.dj219uafct.ico",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\w1nu49ifzt-dj219uafct.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072563675"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dj219uafct"
+        },
+        {
+          "Name": "label",
+          "Value": "Комфорт.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.dj219uafct.ico",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dj219uafct"
+        },
+        {
+          "Name": "label",
+          "Value": "Комфорт.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.dj219uafct.ico.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\w1nu49ifzt-dj219uafct.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dj219uafct"
+        },
+        {
+          "Name": "label",
+          "Value": "Комфорт.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.ico",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\w1nu49ifzt-dj219uafct.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000072563675"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.ico",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13757"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GQTD6ik4zKojtckaMyZZ99TKGLHhiruYVFgiSRvDe44="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.ico.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\w1nu49ifzt-dj219uafct.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WfHvXC9vanibhCzmi4ZSxt9+lFK1Z31dEwNypaI0bTk="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.liirj9c6u9.png",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fY0Gnn4Bv1kJPuIqLxJ4TZO/vCoFNNze/CaM28gK+Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "liirj9c6u9"
+        },
+        {
+          "Name": "label",
+          "Value": "Комфорт.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fY0Gnn4Bv1kJPuIqLxJ4TZO/vCoFNNze/CaM28gK+Ls="
+        }
+      ]
+    },
+    {
+      "Route": "Комфорт.png",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fY0Gnn4Bv1kJPuIqLxJ4TZO/vCoFNNze/CaM28gK+Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Mar 2026 18:01:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fY0Gnn4Bv1kJPuIqLxJ4TZO/vCoFNNze/CaM28gK+Ls="
+        }
+      ]
+    },
+    {
+      "Route": "app.hevrzmhw7v.js",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\vna5pshiy9-hevrzmhw7v.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000124828361"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8010"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hevrzmhw7v"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM="
+        }
+      ]
+    },
+    {
+      "Route": "app.hevrzmhw7v.js",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hevrzmhw7v"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM="
+        }
+      ]
+    },
+    {
+      "Route": "app.hevrzmhw7v.js.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\vna5pshiy9-hevrzmhw7v.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hevrzmhw7v"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\vna5pshiy9-hevrzmhw7v.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000124828361"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8010"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM="
+        }
+      ]
+    },
+    {
+      "Route": "app.js",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R/2l982W/kbzgNaK3W6rAFPjz4sZKHMy/FJzmO/a8cM="
+        }
+      ]
+    },
+    {
+      "Route": "app.js.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\vna5pshiy9-hevrzmhw7v.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8010"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d70pOaiNIwGs4cEdMwXXw66TjboU3LwrBJRmFHgaZhk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\utziqr37ck-z1c1yu9trx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000379362671"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2635"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\utziqr37ck-z1c1yu9trx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4="
+        }
+      ]
+    },
+    {
+      "Route": "index.z1c1yu9trx.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\utziqr37ck-z1c1yu9trx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000379362671"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2635"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z1c1yu9trx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU="
+        }
+      ]
+    },
+    {
+      "Route": "index.z1c1yu9trx.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z1c1yu9trx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R10rD5ksxwdwS5SdcJLWMLAzqluKhqhHiWKOgxpZrFU="
+        }
+      ]
+    },
+    {
+      "Route": "index.z1c1yu9trx.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\utziqr37ck-z1c1yu9trx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2635"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z1c1yu9trx"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CJ3nIjSwFNStoygMPwu8PZrqlgCFYRkKnzIPt+lG8m4="
+        }
+      ]
+    },
+    {
+      "Route": "login.ehwaf9sea8.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\slf07rgx1y-ehwaf9sea8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000754147813"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehwaf9sea8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU="
+        }
+      ]
+    },
+    {
+      "Route": "login.ehwaf9sea8.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehwaf9sea8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU="
+        }
+      ]
+    },
+    {
+      "Route": "login.ehwaf9sea8.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\slf07rgx1y-ehwaf9sea8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ehwaf9sea8"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\slf07rgx1y-ehwaf9sea8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000754147813"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dspwsic+tYzEzbN551tsenAcH0NusQNjCwZ/zf9zbsU="
+        }
+      ]
+    },
+    {
+      "Route": "login.html.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\slf07rgx1y-ehwaf9sea8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1325"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IKgUzCG1173VivdOXhf6fUf6SOakLBeVSNbbN0GhXrk="
+        }
+      ]
+    },
+    {
+      "Route": "site.css",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\saujpz1q2q-e3ufvzo34k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000387596899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2579"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y="
+        }
+      ]
+    },
+    {
+      "Route": "site.css",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y="
+        }
+      ]
+    },
+    {
+      "Route": "site.css.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\saujpz1q2q-e3ufvzo34k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk="
+        }
+      ]
+    },
+    {
+      "Route": "site.e3ufvzo34k.css",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\saujpz1q2q-e3ufvzo34k.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000387596899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2579"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3ufvzo34k"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y="
+        }
+      ]
+    },
+    {
+      "Route": "site.e3ufvzo34k.css",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3ufvzo34k"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5o59GCg03gaX5XwyM22vKsHTAsySlf15uMUOpCQ+q9Y="
+        }
+      ]
+    },
+    {
+      "Route": "site.e3ufvzo34k.css.gz",
+      "AssetFile": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\obj\\Debug\\net9.0\\compressed\\saujpz1q2q-e3ufvzo34k.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Mar 2026 21:51:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3ufvzo34k"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5/NH1IIBo2EgpnEXzGKaarAiT3zLNPpZW+NIummC3Bk="
+        }
+      ]
+    }
+  ]
+}

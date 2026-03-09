@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Продукция компании «Комфорт»</title>
+  <link rel="icon" href="Комфорт.ico" sizes="any" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body data-page="app">
+  <div class="app-shell">
+    <aside class="sidebar glass">
+      <div class="brand-block">
+        <img src="Комфорт.png" alt="Логотип компании Комфорт" class="brand-logo" />
+        <div>
+          <div class="brand-eyebrow">Производственная компания</div>
+          <h1>Комфорт</h1>
+          <p>Управление продукцией, цехами и расчетом сырья.</p>
+        </div>
+      </div>
+
+      <div class="auth-card">
+        <div class="auth-card__label">Статус авторизации</div>
+        <div class="auth-card__value" id="auth_status">Не авторизован</div>
+      </div>
+
+      <nav class="side-nav">
+        <button class="navbtn active" id="nav_products" type="button">Продукция</button>
+        <button class="navbtn" id="nav_logs" type="button">Журнал</button>
+        <button class="navbtn" id="nav_exit" type="button">Выход</button>
+      </nav>
+
+      <div class="sidebar-actions">
+        <button class="btn btn-lite" id="btn_login_page" type="button">Страница входа</button>
+        <button class="btn btn-lite" id="btn_token_toggle" type="button">Показать токен</button>
+        <button class="btn" id="btn_logout" type="button">Выйти</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <section class="hero glass">
+        <div>
+          <div class="hero__eyebrow">Главная форма</div>
+          <h2>Список продукции компании «Комфорт»</h2>
+          <p>Выберите изделие, откройте его карточку, просмотрите связанные цеха и выполните расчет потребности в сырье.</p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-chip">
+            <span>Изделий</span>
+            <strong id="search_count">0</strong>
+          </div>
+          <div class="stat-chip">
+            <span>Выбранный ID</span>
+            <strong id="selected_id">—</strong>
+          </div>
+          <div class="stat-chip">
+            <span>Всего часов</span>
+            <strong id="selected_total_time">0</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace-grid">
+        <section class="glass catalog-panel">
+          <div class="section-header">
+            <div>
+              <div class="section-eyebrow">Подсистема продукции</div>
+              <h3>Каталог изделий</h3>
+            </div>
+            <div class="header-actions">
+              <button class="btn btn-lite" id="btn_reload" type="button">Обновить</button>
+              <button class="btn" id="btn_open_create" type="button">Добавить продукцию</button>
+            </div>
+          </div>
+
+          <div class="toolbar-row">
+            <input id="search_q" class="search" placeholder="Поиск по артикулу, типу, материалу или названию" />
+            <button class="btn btn-lite" id="btn_open_edit" type="button">Редактировать</button>
+            <button class="btn btn-lite" id="btn_open_view" type="button">Открыть</button>
+            <button class="btn btn-danger" id="btn_open_delete" type="button">Удалить</button>
+          </div>
+
+          <div class="cardsgrid" id="cards_grid"></div>
+        </section>
+
+        <section class="detail-column">
+          <section class="glass details-panel">
+            <div class="section-header">
+              <div>
+                <div class="section-eyebrow">Карточка продукции</div>
+                <h3 id="details_title_inline">Продукция не выбрана</h3>
+              </div>
+              <button class="btn btn-lite" id="btn_details_copy" type="button">Скопировать JSON</button>
+            </div>
+            <div id="details_body" class="details-body empty-state">Выберите изделие из списка слева.</div>
+          </section>
+
+          <section class="glass workshops-panel">
+            <div class="section-header">
+              <div>
+                <div class="section-eyebrow">Производство</div>
+                <h3>Цеха выбранной продукции</h3>
+              </div>
+              <div class="header-actions">
+                <button class="btn btn-lite" id="btn_add_workshop" type="button">Добавить цех</button>
+                <button class="btn btn-lite" id="btn_refresh_workshops" type="button">Обновить</button>
+              </div>
+            </div>
+
+            <div class="workshops-summary">
+              <span class="pill">Суммарное время: <strong id="workshop_total_hours">0</strong> ч</span>
+              <span class="pill">Строк: <strong id="workshop_count">0</strong></span>
+            </div>
+
+            <div id="workshops_list" class="workshops-list empty-state">Выберите продукцию, чтобы увидеть список цехов.</div>
+          </section>
+
+          <section class="glass calculator-panel">
+            <div class="section-header">
+              <div>
+                <div class="section-eyebrow">Метод расчета сырья</div>
+                <h3>Расчет потребности в материале</h3>
+              </div>
+            </div>
+
+            <div class="calc-grid">
+              <div class="field field--full">
+                <label for="calc_product_type">Тип продукции</label>
+                <select id="calc_product_type"></select>
+              </div>
+              <div class="field field--full">
+                <label for="calc_material_type">Тип материала</label>
+                <select id="calc_material_type"></select>
+              </div>
+              <div class="field field--full">
+                <label for="calc_count">Количество продукции</label>
+                <input id="calc_count" type="number" min="0.0001" step="0.0001" placeholder="1" />
+              </div>
+              <div class="field field--full">
+                <label for="calc_param1">Параметр 1</label>
+                <input id="calc_param1" type="number" min="0.0001" step="0.0001" placeholder="1" />
+              </div>
+              <div class="field field--full">
+                <label for="calc_param2">Параметр 2</label>
+                <input id="calc_param2" type="number" min="0.0001" step="0.0001" placeholder="1" />
+              </div>
+              <div class="field field--full calc-action-wrap">
+                <button class="btn" id="btn_calc_material" type="button">Рассчитать</button>
+              </div>
+            </div>
+            <div class="calc-result" id="calc_result">Результат расчета: —</div>
+          </section>
+        </section>
+      </section>
+
+      <section class="glass log-panel hidden" id="view_logs">
+        <div class="section-header">
+          <div>
+            <div class="section-eyebrow">Системный журнал</div>
+            <h3>Последние действия</h3>
+          </div>
+          <button class="btn btn-lite" id="btn_logs_clear" type="button">Очистить</button>
+        </div>
+        <pre id="log" class="logbox"></pre>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal" id="token_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge">JWT</span><span>Токен доступа</span></div>
+        <button class="btn btn-lite" data-close="1" type="button">✕</button>
+      </div>
+      <div class="modal-body"><pre id="token_box" class="logbox logbox--modal"></pre></div>
+      <div class="modal-footer"><button class="btn btn-lite" id="btn_token_copy" type="button">Копировать</button><button class="btn" data-close="1" type="button">ОК</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="form_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel modal-panel--wide">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="form_badge">ФОРМА</span><span id="form_title">Карточка продукции</span></div>
+        <button class="btn btn-lite" data-close="1" type="button">✕</button>
+      </div>
+      <div class="modal-body"><div id="form_fields" class="formgrid"></div></div>
+      <div class="modal-footer"><button class="btn btn-lite" data-close="1" type="button">Отмена</button><button class="btn" id="btn_form_submit" type="button">Сохранить</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="workshop_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="workshop_form_badge">ЦЕХ</span><span id="workshop_form_title">Связь продукции и цеха</span></div>
+        <button class="btn btn-lite" data-close="1" type="button">✕</button>
+      </div>
+      <div class="modal-body"><div id="workshop_form_fields" class="formgrid formgrid--single"></div></div>
+      <div class="modal-footer"><button class="btn btn-lite" data-close="1" type="button">Отмена</button><button class="btn" id="btn_workshop_submit" type="button">Сохранить</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="confirm_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge warn">ПОДТВЕРЖДЕНИЕ</span><span id="confirm_title">Подтвердите действие</span></div>
+        <button class="btn btn-lite" data-close="1" type="button">✕</button>
+      </div>
+      <div class="modal-body"><div id="confirm_body">—</div></div>
+      <div class="modal-footer"><button class="btn btn-lite" data-close="1" type="button">Отмена</button><button class="btn btn-danger" id="btn_confirm_yes" type="button">Да</button></div>
+    </div>
+  </div>
+
+  <div class="modal" id="msg_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="msg_kind">INFO</span><span id="msg_title">Сообщение</span></div>
+        <button class="btn btn-lite" data-close="1" type="button">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="msg_body" style="white-space: pre-wrap;">—</div>
+        <details class="message-details"><summary>Подробности</summary><pre id="msg_details" class="logbox logbox--modal"></pre></details>
+      </div>
+      <div class="modal-footer"><button class="btn" data-close="1" type="button">ОК</button></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

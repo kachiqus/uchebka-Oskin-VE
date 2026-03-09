@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.ico",
+      "PackagePath": "staticwebassets\\Комфорт.ico"
+    },
+    {
+      "Id": "C:\\Users\\sickd\\Оськин Влад 284 УП\\oskin_site\\wwwroot\\Комфорт.png",
+      "PackagePath": "staticwebassets\\Комфорт.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.oskin_site.props",
+      "PackagePath": "build\\oskin_site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.oskin_site.props",
+      "PackagePath": "buildMultiTargeting\\oskin_site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.oskin_site.props",
+      "PackagePath": "buildTransitive\\oskin_site.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.oskin_site.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.oskin_site.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

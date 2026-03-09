@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Вход в систему — Комфорт</title>
+  <link rel="icon" href="Комфорт.ico" sizes="any" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body data-page="login">
+  <main class="login-layout">
+    <section class="login-showcase glass">
+      <img src="Комфорт.png" alt="Логотип Комфорт" class="login-logo" />
+      <div class="login-showcase__badge">Компания «Комфорт»</div>
+      <h1>Система управления продукцией</h1>
+      <p>Авторизуйтесь, чтобы перейти к каталогу изделий, списку цехов выбранной продукции и расчету потребности в сырье.</p>
+      <ul class="login-feature-list">
+        <li>Карточки продукции с обязательными полями</li>
+        <li>Просмотр цехов и суммарного времени изготовления</li>
+        <li>Метод расчета количества сырья</li>
+      </ul>
+    </section>
+
+    <section class="login-panel glass">
+      <div class="section-eyebrow">Авторизация</div>
+      <h2>Вход в систему — Комфорт</h2>
+      <p class="login-panel__hint">Используйте существующую учетную запись или зарегистрируйте новую.</p>
+
+      <div class="field field--full">
+        <label for="login_user">Логин</label>
+        <input id="login_user" placeholder="Введите логин" autocomplete="username" />
+        <div class="errtxt" id="err_login"></div>
+      </div>
+
+      <div class="field field--full">
+        <label for="login_pass">Пароль</label>
+        <input id="login_pass" type="password" placeholder="Введите пароль" autocomplete="current-password" />
+        <div class="errtxt" id="err_pass"></div>
+      </div>
+
+      <div class="login-actions">
+        <button class="btn" id="btn_do_login" type="button">Войти</button>
+        <button class="btn btn-lite" id="btn_register" type="button">Регистрация</button>
+        <button class="btn btn-lite" id="btn_go_app" type="button">К приложению</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="msg_modal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close="1"></div>
+    <div class="modal-panel">
+      <div class="modal-header">
+        <div class="modal-title"><span class="badge" id="msg_kind">INFO</span><span id="msg_title">Сообщение</span></div>
+        <button class="btn btn-lite" data-close="1" type="button">✕</button>
+      </div>
+      <div class="modal-body">
+        <div id="msg_body" style="white-space: pre-wrap;">—</div>
+        <details class="message-details"><summary>Подробности</summary><pre id="msg_details" class="logbox logbox--modal"></pre></details>
+      </div>
+      <div class="modal-footer"><button class="btn" data-close="1" type="button">ОК</button></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
